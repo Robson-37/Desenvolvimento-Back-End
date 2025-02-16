@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <p>"Result"</p>
+    <script type="text/javascript">
+        //Criar o XML visto no código no formato de string JS
+        var xmlString = '<?xml version="1.0" encoding="UTF-8" ?> \ <correntista>\                                                 <conta agencia="1234-5"> <tipo>Física</tipo>\ <nome>Maria José</nome> <numero>000.321.654-78<?numero> \ </conta>                                              <conta agencia="6789-0"> <tipo>Física</tipo>\ <nome>Maria José</nome> <numero>000.333.654-90<?numero> \ </conta>                                                    </correntista>';
+        // Converter a string acima para um documento XML válido
+
+        var parser = new DOMParser();
+        var xmlDoc= parser.parseFromString(xmlString, "text/xml");
+
+        //Chamar a função responsável por coletar e exibir dados do XML
+        manipulaXML(xmlDoc);
+
+        function name(params) {
+            
+        }
+        
+    </script>
+</body>
+</html>

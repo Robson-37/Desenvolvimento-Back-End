@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FNe>
+    <CABECALHO>
+        <UF></UF>
+        <DESCRICAO>Venda de produto do estabelecimento</DESCRICAO>
+        <NUMERO_DE_SERIE>1</NUMERO_DE_SERIE>
+        <NF>2025</NF>
+        <DATA>02/02/2025</DATA>
+        <HORA>22:01</HORA>
+    </CABECALHO>
+    <EMITENTE>
+        <CNPJ>17159614000113</CNPJ>
+        <NOME>Real Sporte Ltda</NOME>
+        <E-MAIL>fulano@testexml.com</E-MAIL>
+        <ENDERECO>
+            <LOGADOURO>Rua 46</LOGADOURO>
+            <NUMERO>04</NUMERO>
+            <BAIRRO>Maranguape II</BAIRRO>
+            <MUNICIPIO>Paulista</MUNICIPIO>
+            <UF>PE</UF>
+            <CEP>53421-021</CEP>
+            <PAIS>Brasil</PAIS>
+            <TELEFONE>+55 81 3433-2976</TELEFONE>
+        </ENDERECO>
+    </EMITENTE>
+    <ITEM NUMERO="1">
+        <PRODUTO>Notebook DELL</PRODUTO>
+        <QUANTIDADE>1</QUANTIDADE>
+        <VALOR>2589.99</VALOR>
+    </ITEM>
+    <ITEM NUMERO="2">
+        <PRODUTO>Monitor DELL</PRODUTO>
+        <QUANTIDADE>1</QUANTIDADE>
+        <VALOR>1055.89</VALOR>
+    </ITEM>
+    <RODAPE>
+        <VALOR_NF>0.00</VALOR_NF>
+        <ICMS>0.00</ICMS>
+    </RODAPE>
+</FNe>
